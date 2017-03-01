@@ -1,0 +1,41 @@
+#content
+{
+	width : 800px;
+	margin : 0 auto;
+	background: lightgreen;
+}
+
+
+#nav ul {
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+}
+
+#nav li
+{
+	list-style : none;
+	float : left;
+	width : 25%;
+}
+
+#nav a
+{
+	text-align : center;
+	color : white;
+	text-decoration : none;
+	background : blue;
+	display : block;
+	padding : 20px;
+}
+
+#nav a:hover
+{
+	background : orange;
+}
+
+
+
+
+
+

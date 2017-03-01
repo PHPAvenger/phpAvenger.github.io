@@ -6,7 +6,6 @@ body
 #content
 {
 	width : 60%;
-	height : 100%;
 	margin : 0 auto;
 	background : white;
 	text-align : center;
@@ -28,7 +27,7 @@ body
 #logo p
 {
 	margin : 5px;
-	font: 40px 'Dancing Script', cursive;
+	font: 60px 'Dancing Script', cursive;
 }
 
 
@@ -75,16 +74,41 @@ body
 
 h1
 {
-	font: 28px 'Dancing Script', cursive;
+	font: 48px 'Dancing Script', cursive;
 }
 
+#nailtab h1
+{
+	margin : 0;
+}
 
-card1 img
+#nailtab
+{
+	
+	width : 65%;
+	margin: 0 auto;
+	padding : 10px;
+	position: relative;
+}
+
+#nailtab img
 {
 	height : 100px;
 	width : 100px;
-	border-radius: 20px;
+	border-radius: 100%;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
 }
+
+#nailtab .desc
+{
+	height : 150px;
+	width : 100%;
+	background : #8ab1c4;
+	padding : 10px;
+	text-align : left;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
+
 
 
 

@@ -2,7 +2,7 @@
 {
 	width : 800px;
 	margin : 0 auto;
-	background: lightgreen;
+	background: #cad8d2;
 }
 
 
@@ -24,14 +24,14 @@
 	text-align : center;
 	color : white;
 	text-decoration : none;
-	background : blue;
+	background : #697fa3;
 	display : block;
 	padding : 20px;
 }
 
 #nav a:hover
 {
-	background : orange;
+	background : #9abcdd;
 }
 
 

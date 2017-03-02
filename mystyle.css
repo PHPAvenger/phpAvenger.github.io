@@ -247,16 +247,18 @@ h1
 	display: table; 
 	width : 90%;
 	margin: 0 auto;
-	border-spacing: 20px;
+	border-spacing: 20px 20px;
+	
 }
 .table table
 {
-	padding: 10px;
+	padding: 20px;
 	margin : 10px;
 	border-collapse: collapse;
 	border: 1px solid black;
     width: 95%;
 	font: 14px 'Roboto', sans-serif;
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
 }
 
 
@@ -288,6 +290,7 @@ th
 
 	
 }
+/*
 .table .row:nth-child(odd)
 {
 	background: #cac5ea;
@@ -296,22 +299,28 @@ th
 {
 	background: #e1a9c2;
 }
+*/
 .Lcell 
 { 
 	display: table-cell; 
-	border-radius: 5px 25px 25px 5px;
+	/*border-radius: 5px 25px 25px 5px;
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+	*/
     width: 200px;
     height: 150px; 
-	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+	
     
 }
 .Rcell 
 { 
 	display: table-cell; 
+	/*
 	border-radius: 25px 5px 5px 25px;  
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+	*/
     width: 200px;
     height: 150px; 
-	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+	
     
 }
 
@@ -320,6 +329,17 @@ th
 	text-align : left;
 }
 
+.table li
+{
+	text-align : left;
+	font: 14px 'Roboto', sans-serif;
+}
+
+.table .desc
+{
+	text-align : justify;
+	font: 14px 'Roboto', sans-serif;
+}
 
 
 

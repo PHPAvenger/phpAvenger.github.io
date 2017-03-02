@@ -134,7 +134,7 @@ h1
 	text-align : justify;
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
     border-radius: 2px;
-	font: 14px 'Roboto', sans-serif;
+	font: 18px 'Roboto', sans-serif;
 	
 }
 
@@ -148,7 +148,7 @@ h1
 	text-align : justify;
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
     border-radius: 2px;
-	font: 14px 'Roboto', sans-serif;
+	font: 18px 'Roboto', sans-serif;
 	
 }
 
@@ -162,8 +162,13 @@ h1
 	text-align : justify;
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
     border-radius: 2px;
-	font: 14px 'Roboto', sans-serif;
+	font: 18px 'Roboto', sans-serif;
 	
+}
+
+.price
+{
+	color: #fe5aa4;
 }
 
 
@@ -235,6 +240,55 @@ h1
 {
 	font: 20px 'Roboto', sans-serif;
 	
+}
+
+.table 
+{ 
+	display: table; 
+	width : 90%;
+	margin: 0 auto;
+	border-spacing: 10px;
+}
+.row 
+{ 
+	display: table-row; 
+
+	
+}
+.table .row:nth-child(odd)
+{
+	background: #cac5ea;
+}
+.table .row:nth-child(even)
+{
+	background: #e1a9c2;
+}
+.Lcell 
+{ 
+	display: table-cell; 
+	border-radius: 5px 25px 25px 5px;
+    
+    width: 200px;
+    height: 150px; 
+	margin: 10px;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+	
+}
+.Rcell 
+{ 
+	display: table-cell; 
+	border-radius: 25px 5px 5px 25px;
+    
+    width: 200px;
+    height: 150px; 
+	padding : 10px;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+	
+}
+
+.table p 
+{
+	text-align : left;
 }
 
 

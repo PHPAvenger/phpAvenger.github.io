@@ -87,7 +87,7 @@ h1
 	
 	width : 65%;
 	margin: 0 auto;
-	padding : 10px;
+	padding : 20px;
 	position: relative;
 }
 
@@ -96,16 +96,20 @@ h1
 	height : 100px;
 	width : 100px;
 	border-radius: 100%;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+ 
 	
 }
 
 #nailtab .desc
 {
-	height : 150px;
+	height : 100%;
 	width : 100%;
 	background : #8ab1c4;
 	padding : 10px;
 	text-align : left;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+    border-radius: 2px;
 	
 }
 

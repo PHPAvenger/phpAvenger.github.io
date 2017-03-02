@@ -169,8 +169,12 @@ h1
 .price
 {
 	color: #fe5aa4;
+	margin-bottom:0;
 }
-
+.table h1
+{
+	margin-bottom: 0;
+}
 
 #facialtab
 {
@@ -337,7 +341,7 @@ th
 
 .table li
 {
-	text-align : left;
+	text-align : justify;
 	font: 14px 'Roboto', sans-serif;
 }
 

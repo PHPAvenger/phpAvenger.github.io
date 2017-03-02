@@ -247,8 +247,41 @@ h1
 	display: table; 
 	width : 90%;
 	margin: 0 auto;
-	border-spacing: 10px;
+	border-spacing: 20px;
 }
+.table table
+{
+	padding: 10px;
+	margin : 10px;
+	border-collapse: collapse;
+	border: 1px solid black;
+    width: 95%;
+	font: 14px 'Roboto', sans-serif;
+}
+
+
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+tr:hover
+{
+	background-color: #dbb4da;
+}
+
+th 
+{
+    background-color: #764f6f;
+    color: white;
+}
+
 .row 
 { 
 	display: table-row; 
@@ -267,23 +300,19 @@ h1
 { 
 	display: table-cell; 
 	border-radius: 5px 25px 25px 5px;
-    
     width: 200px;
     height: 150px; 
-	margin: 10px;
-	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
-	
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+    
 }
 .Rcell 
 { 
 	display: table-cell; 
-	border-radius: 25px 5px 5px 25px;
-    
+	border-radius: 25px 5px 5px 25px;  
     width: 200px;
     height: 150px; 
-	padding : 10px;
-	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
-	
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+    
 }
 
 .table p 

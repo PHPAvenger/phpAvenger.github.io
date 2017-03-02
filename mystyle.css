@@ -266,6 +266,12 @@ h1
 th, td {
     text-align: left;
     padding: 8px;
+	
+}
+
+td:last-child
+{
+	white-space: nowrap;
 }
 
 tr:nth-child(even)

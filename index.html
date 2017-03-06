@@ -35,26 +35,34 @@
 	<h1> The perfect place to get pampered </h1>
 	
 	
-	<div id="slideshow" >
+	<div class = "slideshow" >
 		<div class="slide fade">
-			<img style="width=100%" src="p1L.jpg"/>
+			<img style="width=100%" src="p1L2.jpg"/>
 		</div>
 		<div class="slide fade">
-			<img style="width=100%" src="p2L.jpg"/>
+			<img style="width=100%" src="p2L2.jpg"/>
 		</div>
 		<div class="slide fade">
-			<img style="width=100%" src="p3L.jpg"/>
+			<img style="width=100%" src="p3L2.jpg"/>
+		</div>
+		<div class="slide fade">
+			<img style="width=100%" src="p4L2.jpg"/>
+		</div>
+		<div class="slide fade">
+			<img style="width=100%" src="p5L2.jpg"/>
 		</div>
 		
 		<!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>-->
 	</div>
 	
+	<!--
 	<div style="text-align:center">
 		<span class="dot"></span> 
 		<span class="dot"></span> 
 		<span class="dot"></span> 
 	</div>
+	-->
 	
 	
 	
@@ -108,17 +116,19 @@
 		function autoSlides() {
 			 var i;
 				var slides = document.getElementsByClassName("slide");
-				var dots = document.getElementsByClassName("dot");
+				//var dots = document.getElementsByClassName("dot");
 				for (i = 0; i < slides.length; i++) {
 				   slides[i].style.display = "none";  
 				}
 				autoSlideIndex++;
-				if (autoSlideIndex> slides.length) {autoSlideIndex = 1}    
-				for (i = 0; i < dots.length; i++) {
+				if(autoSlideIndex> slides.length) {autoSlideIndex = 1}    
+				/*for (i = 0; i < dots.length; i++) {
 					dots[i].className = dots[i].className.replace(" active", "");
 				}
-				slides[autoSlideIndex-1].style.display = "block";  
+				 
 				dots[autoSlideIndex-1].className += " active";
+				*/
+				slides[autoSlideIndex-1].style.display = "block"; 
 				setTimeout(autoSlides, 4000); // Change image every 2 seconds
 		}
 	

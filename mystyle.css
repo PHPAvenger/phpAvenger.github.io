@@ -113,7 +113,7 @@ h1
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
 	position : absolute;
 	top : -5px;
-	left : 43.5%;
+	left : 45%;
 	
 }
 
@@ -167,6 +167,35 @@ h1
 	
 }
 
+.desc
+{
+	
+	background :  #9abcdd;
+	text-align : justify;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+    border-radius: 2px;
+	font: 18px 'Roboto', sans-serif;
+}
+
+#content .infobox
+{
+	
+	width: 95%;
+	margin : auto;
+	padding-bottom : 10px;
+	
+}
+
+
+.infobox p
+{
+	padding: 10px;
+	margin-top : 0;
+}
+.infobox h1
+{
+	margin: 0;
+}
 .price
 {
 	
@@ -197,7 +226,7 @@ h1
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
 	position : absolute;
 	top : -5px;
-	left : 43.5%;
+	left : 45%;
 	
 }
 
@@ -221,7 +250,7 @@ h1
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
 	position : absolute;
 	top : -5px;
-	left : 43.5%;
+	left : 45%;
 	
 }
 
@@ -235,10 +264,6 @@ h1
 #contact i
 {
 	vertical-align: middle;
-	
-	
-	
-	
 }
 
 #contact p
@@ -246,6 +271,18 @@ h1
 	font: 20px 'Roboto', sans-serif;
 	
 }
+
+
+#contact a:link
+{
+	color :#9abcdd;
+}
+#contact a.visited
+{
+	color : #9abcdd;
+}
+
+
 
 .table 
 { 
@@ -354,7 +391,8 @@ th
 
 .slideshow
 {
-	max-width: 1000px;
+	width: 100%;
+	min-width : 800px;
 	position : relative;
 	margin : auto;
 }
@@ -362,6 +400,7 @@ th
 .slide
 {
 	display : none;
+	margin-bottom : 10px;
 }
 
 /* Next & previous buttons */
@@ -400,6 +439,7 @@ th
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  
 
 }
 

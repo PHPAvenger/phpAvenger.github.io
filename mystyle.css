@@ -389,6 +389,12 @@ th
 	font: 14px 'Roboto', sans-serif;
 }
 
+.table .tdesc
+{
+	text-align : justify;
+	font: 14px 'Roboto', sans-serif;
+}
+
 .slideshow
 {
 	width: 100%;

@@ -195,7 +195,18 @@ h1
 .infobox h1
 {
 	margin: 0;
+	cursor: pointer;
+	padding-left: 25px;
+	background: #cad8d2 url(minus.png) no-repeat left center;
+	
+	
 }
+
+.infobox .infoContent
+{
+	/*display : none;*/
+}
+
 .price
 {
 	

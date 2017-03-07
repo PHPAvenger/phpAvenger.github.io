@@ -176,14 +176,18 @@ h1
     border-radius: 2px;
 	font: 14px 'Roboto', sans-serif;
 	
+	
+	
 }
 
 #content .infobox
 {
 	
 	width: 95%;
+	height : 100%;
 	margin : auto;
 	padding-bottom : 10px;
+	
 	
 }
 

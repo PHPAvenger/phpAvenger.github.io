@@ -175,7 +175,7 @@ h1
 	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
     border-radius: 2px;
 	font: 14px 'Roboto', sans-serif;
-	width: 95%;
+	
 }
 
 #content .infobox
@@ -192,6 +192,7 @@ h1
 {
 	padding: 10px;
 	margin-top : 0;
+	font: 14px 'Roboto', sans-serif;
 }
 .infobox-off h1 , .infobox-on h1
 {

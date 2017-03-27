@@ -12,6 +12,7 @@ body
 	text-align : center;
 	font: 18px 'Dancing Script', cursive;
 	border-radius : 10px;
+	padding-bottom : 10px;
 }
 #logo
 {
@@ -315,6 +316,35 @@ h1
 	color : #9abcdd;
 }
 
+.special
+{
+	
+	
+	border-radius: 25px;
+	font: 20px 'Roboto', sans-serif;
+	width : 95%;
+	margin : auto;
+	background :  #efdec5;
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+	
+}
+
+.special li
+{
+	list-style : none;
+}
+.special h2
+{
+	font: 32px 'Dancing Script', cursive;
+}
+
+.special h3
+{
+	font: 26px 'Dancing Script', cursive;
+}
+
+
+
 
 
 
@@ -507,6 +537,7 @@ th
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 
 
 

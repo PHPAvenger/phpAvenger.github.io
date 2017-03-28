@@ -319,12 +319,15 @@ h1
 .special
 {
 	
-	
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-color : #697fa3;
+	 border-width: 8px;
 	border-radius: 25px;
 	font: 20px 'Roboto', sans-serif;
-	width : 95%;
+	width : 70%;
 	margin : auto;
-	background :  #efdec5;
+	background :  #97c2c1;
 	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
 	
 }

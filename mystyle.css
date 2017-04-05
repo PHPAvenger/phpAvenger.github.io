@@ -2,9 +2,10 @@
 body
 {
 	background : #b1d6ed;
-	background-image: url("wall_v1.png");
+	/*background-image: url("wall_v1.png");
     background-repeat: no-repeat;
     background-position: left top;
+	*/
 }
 #content
 {

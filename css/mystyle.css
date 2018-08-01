@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*
+* {
+	outline: 1px dotted grey;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*/
+
+#showcase{
+	padding-top: 3em;
+	background-image:url("../images/main.jpg");
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	text-align:center;
+	
+}
+
+
+
+.names{	
+	
+	font-size:7em;
+	font-family: 'Great Vibes', cursive;
+	
+}
+
+#couple{
+	height: 400px;
+}
+
+.date{
+	font-size:4em;
+	font-family: 'Great Vibes', cursive;
+	
+}
+
+
+.fd{
+	margin-top: 10%;;
+}
+
+
+.profile img{
+
+	border-radius: 50%;
+}
+
+.robin{
+	text-align: right;
+}
+
+.ourheart{
+	color: cornflowerblue;
+	font-size: 10em;
+	text-align:center;
+	vertical-align: middle;
+}
+
+.firstDate{
+	text-align: center;
+	font-size: 5em;
+	
+	font-family: 'Great Vibes', cursive;
+}
+
+#engagement{
+	background-image:url("../images/ringsand.jpg");
+	background-size : 110%;
+	opacity:0.95;
+	background-position:center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 5em;
+	height: 450px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 150px;
+	animation: breath 5s ease;
+}
+
+@keyframes breath {
+  0%   { background-size: 100%; opacity:0.7 ; }
+  100% { background-size: 110% ; opacity:0.95; }
+  
+}
+
+#ceremony{
+	height: 450px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
